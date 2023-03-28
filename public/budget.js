@@ -1,6 +1,6 @@
 var tabledata = [];
 
-//Display budget amount and populate/display previous table entries
+//Populate tabledata with user's budget and expense info
 window.onload = function () {
   var table = document.getElementById("expenses");
   for (var i = 1, row; (row = table.rows[i]); i++) {
