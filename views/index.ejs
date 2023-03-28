@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all">
+
+</head>
+<body>
+
+    <nav id = "navbar">
+        <a href="/" class = "menuItem">Home</a>
+        <a href="/register" class = "menuItem">Register</a>
+    </nav>
+    <h1>Expense Tracker</h1>
+<div id="logincontainer">
+    <form action = "/index" id = "login" method="POST">
+        <h3>Login</h3>
+        <% if (messages.error) { %>
+            <%= messages.error %>
+        <% } %>
+        <input type="email" name = "email" placeholder="Email"><br>
+        <input type="password" name = "password" placeholder="Password"><br>
+        <button id = "loginbutton" type="Submit" value = "Submit">Login</button>
+        <p>Don't have an account?</p>
+        <a href="/register">Register</a>
+    </form>
+</div>
+</body>
+</html>

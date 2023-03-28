@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all">
+
+</style>
+</head>
+<body>
+    <nav id = "navbar">
+        <a href="/userhome" class = "menuItem">Home</a>
+        <form action="/logout?_method=DELETE" class="menuItem" method = "POST">
+            <button id ="logoutbutton" type="menu">Log Out</button>
+        </form>
+    </div>
+    <h1>Welcome <%= n %></h1>
+
+    <div id = "register">
+            <h2>Bill Split</h2>
+            <input class = "textbox" id = "bill" placeholder="Bill"><br>
+            <input class = "textbox" id = "tip" placeholder="Tip percentage"><br>
+            <input class = "textbox" id = "numpeople" placeholder="Number of people"><br>
+            <button id = "splitbutton">Calculate</button>
+            <h3 id = "result"></h3>
+    </div>
+    <script src="billsplit.js"></script>
+
+
+
+</body>
+</html>

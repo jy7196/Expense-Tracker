@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all">
+
+
+
+</head>
+<body>
+    <nav id = "navbar">
+        <a href="/" class = "menuItem">Home</a>
+        <a href="/index" class = "menuItem">Login</a>
+    </nav>
+    <h1>Expense Tracker</h1>
+    <div id = "regcontainer">
+    <form action = "/register" id = "register" method="POST">
+        <h3>Register</h3>
+        <input class = "textbox" type="name"  name = "name" placeholder="Name" required />
+        <input class = "textbox" type="email"  name = "email" placeholder="Email" required />
+        <input class = "textbox" type="password" name = "password" placeholder="Password" required /><br>
+        <button id = "loginbutton" type="Submit" value = "Submit">Register</button>
+        <p>Already have an account?</p>
+        <a href="/index" >Login</a>
+    </form>
+</div>
+</body>
+</html>
