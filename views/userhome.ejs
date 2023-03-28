@@ -25,13 +25,14 @@
     <form action = "/userhome" method="POST">
     <div id = "content">
     <div id = "budgettool">
+        <h4 id = "error"></h4>
         <h3>Balance</h3>
         <h3 id = "budget">$<%= Number(budget).toFixed(2) %></h3>
         <textarea class = "hide" id= "data" name ="data" type="text"></textarea>
         <p class = "hide" id = "inputicon">$</p><input class = "hide" id= "budgetinput" name ="budget" type="text" placeholder="$0.00">
+
         <button class = "hide" type = "button" id = "cancelbudget" class = "show">Cancel</button>
 
-        <h4 id = "error"></h4>
         <button type = "button" id = "setbudget" class = "show">Update</button>
     </div>
     <div id ="expensearea">
