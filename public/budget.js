@@ -101,12 +101,12 @@ function addExpenseItem() {
     if (cost > 0) {
       cell2.style.color = "green";
       cell2.style.fontSize = "1em";
-      cell2.style.backgroundColor = "rgb(203 205 220)";
+      cell2.style.backgroundColor = "rgb(201, 203, 212)";
     }
     if (cost < 0) {
       cell2.style.color = "red";
       cell2.style.fontSize = "1em";
-      cell2.style.backgroundColor = "rgb(167 171 196)";
+      cell2.style.backgroundColor = "rgb(165, 165, 165)";
     }
     cell3.innerHTML =
       '<button id = "removebutton" type="button" onclick="removeExpense(this)">X</button>';
