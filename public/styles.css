@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tilt+Neon&display=swap");
 html {
-  background: linear-gradient(0deg, rgba(168, 205, 172, 0.804), white);
+  background-color: white;
   background-size: cover;
   min-height: 100%;
 }
